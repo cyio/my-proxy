@@ -1,0 +1,15 @@
+{
+  "name": "my-proxy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "NODE_ENV=development nodemon --inspect --watch server server/index.js",
+    "start": "node server"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "koa": "^2.5.0",
+    "koa-router": "^7.4.0"
+  }
+}
